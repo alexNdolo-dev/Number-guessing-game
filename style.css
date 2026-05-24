@@ -1,0 +1,91 @@
+#container{
+    background-color: blueviolet;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 50px auto;
+    color: aliceblue;
+    width: 90%;
+    max-width: 400px;
+    min-height: 400px;
+}
+
+input{
+    width: 100%;
+    color: brown;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#submit{
+    background-color: burlywood;
+    color: rgb(10, 10, 10);
+    border-radius: 5px;
+    height: 50px;
+    font-size: large;
+}
+
+#start{
+    background-color: rgb(16, 203, 91);
+    color: rgb(10, 10, 10);
+    border-radius: 5px;
+    height: 50px;
+    font-size: large;
+}
+
+#submit:hover{
+    color: rgb(220, 217, 210);
+    font-weight: 300;
+}
+
+#start:hover{
+    color: goldenrod;
+    font-weight: 300;
+}
+
+#points{
+    background-color: rgb(79, 72, 94);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 15px;
+    color: rgb(145, 185, 70);
+    height: 40px;
+    font-weight: 400;
+}
+
+#count{
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgb(127, 243, 11);
+    height: 40px;
+    font-weight: 400;
+    color: rgb(213, 6, 6);
+}
+
+#readOnly{
+    color: goldenrod;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#submit, #start {
+    width: 48%;
+}
+
+#points, #count {
+    width: 48%;
+}
+
+#submit, #start, #points, #count {
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    #submit, #start, #points, #count {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
